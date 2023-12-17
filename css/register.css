@@ -74,10 +74,10 @@ body {
 .register {
     padding: 0.5rem;
     background-color: #102C57;
-    min-height: 100vh;
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 
 .register-image {

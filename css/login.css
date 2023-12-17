@@ -74,10 +74,10 @@ body {
 .login {
     padding: 0.5rem;
     background-color: #102C57;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 
 .login-image {
@@ -95,6 +95,7 @@ body {
 .form-container {
     border-radius: 0.5rem;
     padding: 20px;
+    margin-top: 80px;
 }
 
 .form-container h3 {
