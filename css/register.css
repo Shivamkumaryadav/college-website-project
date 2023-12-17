@@ -61,8 +61,8 @@ body {
 
 .nav-link a:hover {
     background-color: rgb(48, 27, 201);
-    font: bold;
     border-radius: 2rem;
+    font: bold;
     color: whitesmoke;
 }
 
@@ -70,8 +70,8 @@ body {
 
 
 
-/* login form */
-.login {
+/* register form */
+.register {
     padding: 0.5rem;
     background-color: #102C57;
     min-height: 100vh;
@@ -80,11 +80,11 @@ body {
     justify-content: center;
 }
 
-.login-image {
+.register-image {
     display: none;
 }
 
-.login-container .form-container div {
+.register-container .form-container div {
     margin-bottom: 10px;
     border-radius: 0.2rem;
     display: grid;
@@ -126,7 +126,7 @@ body {
     font-size: 20px;
 }
 
-.login-btn button {
+.register-btn button {
     margin-top: 30px;
     width: 100%;
     border: none;
@@ -165,7 +165,7 @@ body {
         height: 100vh;
         flex-direction: column;
         gap: 30px;
-        background: #121242;
+        background-color: #121242;
         position: absolute;
         top: 0;
         left: 0;
@@ -193,6 +193,9 @@ body {
         font-weight: bold;
 
     }
+
+
+
 }
 
 @media screen and (min-width: 820px) {
@@ -214,16 +217,18 @@ body {
     }
 }
 
-/* for login us section */
+/* for register  section */
 @media screen and (min-width: 900px) {
 
-    .login {
+    .register {
         min-height: 100vh;
+        margin-top: 0px;
+        margin-bottom: 10px;
         padding: 0 6rem;
         background-color: white;
     }
 
-    .login-container {
+    .register-container {
         background-color: #102C57;
         overflow: hidden;
         display: grid;
@@ -234,24 +239,24 @@ body {
         border: 1px solid rgb(234, 228, 228);
     }
 
-    .login-image {
+    .register-image {
         display: block;
         overflow: hidden;
     }
 
     .form-container {
-        padding: 4rem;
+        padding: 0.5rem 4rem;
         border-radius: 0rem;
     }
 
-    .login-image img {
+    .register-image img {
         width: 100%;
         height: 100%;
         object-fit: fill;
     }
 
 
-    .login .heading {
+    .register .heading {
         font-size: larger;
         text-align: center;
         margin: 20px 0 0px 0;
@@ -261,13 +266,13 @@ body {
         font-size: 15px;
     }
 
-    .login-btn button {
+    .register-btn button {
         font-size: 1rem;
     }
 }
 
 @media screen and ((min-width: 600px) and (max-width: 899px)) {
-    .login-container {
+    .register-container {
         padding: 5rem;
     }
 
@@ -275,9 +280,10 @@ body {
         padding: 4rem;
     }
 
-    .login-btn button {
+    .register-btn button {
         font-size: 1rem;
     }
 }
 
 /* background: #170550;#31065A; */
+/* <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 16C4 15.4696 4.21071 14.9609 4.58579 14.5858C4.96086 14.2107 5.46957 14 6 14H26.616C27.1464 14 27.6551 14.2107 28.0302 14.5858C28.4053 14.9609 28.616 15.4696 28.616 16C28.616 16.5304 28.4053 17.0391 28.0302 17.4142C27.6551 17.7893 27.1464 18 26.616 18H6C5.46957 18 4.96086 17.7893 4.58579 17.4142C4.21071 17.0391 4 16.5304 4 16ZM4 8C4 7.46957 4.21071 6.96086 4.58579 6.58579C4.96086 6.21071 5.46957 6 6 6H34C34.5304 6 35.0391 6.21071 35.4142 6.58579C35.7893 6.96086 36 7.46957 36 8C36 8.53043 35.7893 9.03914 35.4142 9.41421C35.0391 9.78929 34.5304 10 34 10H6C5.46957 10 4.96086 9.78929 4.58579 9.41421C4.21071 9.03914 4 8.53043 4 8ZM4 24C4 23.4696 4.21071 22.9609 4.58579 22.5858C4.96086 22.2107 5.46957 22 6 22H34C34.5304 22 35.0391 22.2107 35.4142 22.5858C35.7893 22.9609 36 23.4696 36 24C36 24.5304 35.7893 25.0391 35.4142 25.4142C35.0391 25.7893 34.5304 26 34 26H6C5.46957 26 4.96086 25.7893 4.58579 25.4142C4.21071 25.0391 4 24.5304 4 24ZM4 32C4 31.4696 4.21071 30.9609 4.58579 30.5858C4.96086 30.2107 5.46957 30 6 30H26.616C27.1464 30 27.6551 30.2107 28.0302 30.5858C28.4053 30.9609 28.616 31.4696 28.616 32C28.616 32.5304 28.4053 33.0391 28.0302 33.4142C27.6551 33.7893 27.1464 34 26.616 34H6C5.46957 34 4.96086 33.7893 4.58579 33.4142C4.21071 33.0391 4 32.5304 4 32Z" fill="white" /></svg> */
